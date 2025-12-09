@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="icon" href="assets/favicon.png">
+    <title>
+      Philippine Festivals
+    </title>
+  </head>
+  <body>
+    <div id="container-navigation">
+      <div id="container-button">
+        <button id="navigation-button" onclick="navigation();"><img id="navigation-button-image" src="./assets/collapse.png"></button>
+      </div>
+      <nav id="navigation">
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">NCR</button>
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">CAR</button>
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">Region I</button>
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">Region II</button>
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">Region III</button>
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">Region IV-A</button>
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">Mimaropa</button>
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">Region V</button>
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">Region VI</button>
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">NIR</button>
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">Region VII</button>
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">Region VIII</button>
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">Region IX</button>
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">Region X</button>
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">Region XI</button>
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">Region XII</button>
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">Region XIII</button>
+        <button class="navigation-item" onclick="navigateTo(this.textContent);">BARMM</button>
+      </nav>
+    </div>
+    <div id="display">
+      <section id="NCR">
+        <header class="header">
+          <span class="name">NCR</span>
+        </header>
+        <main class="content">
+          <div class="card">
+            <header>
+              <span class="festival-name">Feast of the Black Nazarene</span>
+              <button class="collapse-button" onclick="display(this);">
+                <img class="image" src="./assets/collapse.png">
+              </button>
+            </header>
+            <main class="description">
+              <div class="info">
+                <div class="location">
+                  Location: <span class="data">Manila</span>
+                </div>
+                <div class="date">
+                  Date: <span class="data">9th of January</span>
+                </div>
+              </div>
+              <img class="banner" src="./assets/feast_of_the_black_nazarene.jpeg">
+              <div class="background">
+                <p>
+                  The <strong>Feast of the Black Nazarene</strong> commemorates the transfer of a dark wooden statue of Jesus Christ to its home in Quiapo Church. The image was originally brought from Mexico in 1606 by Augustinian Recollect friars and was initially housed in Bagumbayan (now Luneta), then moved to an Intramuros church before its final relocation to Quiapo. The feast is celebrated with a massive procession called the <em>Traslacion</em>, which draws millions of devotees annually.
+                  <ul>
+                    <li>
+                      <b>1606</b>: The image of the Black Nazarene was brought to the Philippines from Mexico by Augustinian Recollect friars.
+                    </li>
+                    <li>
+                      <b>1608</b>: The image was moved from its initial location at St. John the Baptist Church in Bagumbayan to the Recollects' church in Intramuros.
+                    </li>
+                    <li>
+                      <b>1621</b>: The <i>Cofradia de Jesus Nazareno</i>, or the Confraternity of Jesus Nazarene, was founded.
+                    </li>
+                    <li>
+                      <b>1767</b>: On January 9, Manila Archbishop Basilio Sancho de Santas Justa y Rufina ordered the transfer of the image to Quiapo Church. This event is commemorated annually as the <i>Translacion</i>.
+                    </li>
+                    <li>
+                      <b>1787</b>: The image was canonically installed at Quiapo Church, which became known as the Minor Basilica of the Black Nazarene.
+                    </li>
+                    <li>
+                      <b>Later events</b>: The image has survived numerous fires and earthquakes, further cementing its miraculous status for devotees. The devotion continues to grow, with the annual feast becoming one of the largest displays of religious fervor in the world.
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </main>
+          </div>
+        </main>
+      </section>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
