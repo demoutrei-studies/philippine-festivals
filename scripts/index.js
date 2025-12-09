@@ -1,5 +1,6 @@
 const container_navigation = document.getElementById("container-navigation");
 const navigation_button_image = document.getElementById("navigation-button-image");
+const regions = document.querySelectorAll("[region]");
 
 
 function navigation() {
@@ -17,6 +18,13 @@ function navigation() {
 
 function navigateTo(name) {
   navigation();
+  for (const region of regions) {
+    if (region.getAttribute("region") == name) {
+      region.classList.add("display");
+    } else {
+      region.classList.remove("display");
+    }
+  }
 }
 
 

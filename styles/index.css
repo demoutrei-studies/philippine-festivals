@@ -86,10 +86,15 @@ body {
     
     > section {
       background-color: #90EDEF;
+      display: none;
       height: 80%;
       overflow-y: auto;
       padding: 1em;
       padding-bottom: 70px;
+
+      &.display {
+        display: block;
+      }
 
       > .header {
         background-color: inherit;
