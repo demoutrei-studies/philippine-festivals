@@ -87,5 +87,34 @@
         "The Pamulinawen Festival in Laoag City, Ilocos Norte celebrates the city's patron saint, St. William the Hermit, and its rich Ilocano culture, evolving from a simple feast day into a month-long event with street dancing, parades (including kalesa), culture shows, and trade fairs, named after the popular Ilocano folk song about a modest courtship. It highlights Ilocano heritage, promotes tourism, and fosters community pride through vibrant displays of tradition, music, and local life, starting in early February."
       ]
     }
+  ],
+  "Region II": [
+    {
+      "name": "Bambanti Festival",
+      "location": "Isabela",
+      "date": "January 19 to 25",
+      "image_path": "./assets/region_ii/bambanti_festival.png",
+      "paragraphs": [
+        "The Bambanti Festival in Isabela, Philippines started in 1997 under Governor Benjamin Dy to celebrate the province's rich agricultural heritage, using the \"bambanti\" (scarecrow) as its symbol for farmers' hard work and resilience, evolving into a huge annual event with giant scarecrows, street dances, pageants, and cultural showcases from all 34 municipalities."
+      ]
+    },
+    {
+      "name": "Cabibi Festival",
+      "location": "Lal-lo, Cagayan",
+      "date": "August 1-4",
+      "image_path": "./assets/region_ii/cabibi_festival.png",
+      "paragraphs": [
+        "The Cabibi Festival in Lal-lo, Cagayan, celebrates the town's rich history as oen of the first Spanish-established cities, honoring its indigenous culture (linked to \"cabibi\" shells) and religious roots (Sto. Domingo de Guzman) with vibrant street dancing, cultural shows, and trade fairs, blending indigenous traditions with Christianity and emphasizing community unity and bounty from the river. It marks a transition from paganism to faith and showcase local culture through festive events, evolving to include modern themes like environmental care."
+      ]
+    },
+    {
+      "name": "Higalaay Festival",
+      "location": "Cagayan de Oro City (CDO)",
+      "date": "August 28",
+      "image_path": "./assets/region_ii/higalaay_festival.png",
+      "paragraphs": [
+        "The Higalaay Festival in Cagayan de Oro evolved from a small religious celebration honoring the feast of St. Augustine, which began around the 18th century. It was formerly known as the Kagay-an Festival and is now officially called Higalaay Festival to reflect the city's identity as the \"City of Golden Friendship\", with \"higala\" meaning friend. The festival grew from its religious roots into a large, vibrant celebration showcasing community pride, unity, and friendship."
+      ]
+    }
   ]
 }
