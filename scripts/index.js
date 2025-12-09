@@ -17,7 +17,6 @@ function navigation() {
 
 function navigateTo(name) {
   navigation();
-  console.log(name);
 }
 
 
