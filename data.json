@@ -116,5 +116,34 @@
         "The Higalaay Festival in Cagayan de Oro evolved from a small religious celebration honoring the feast of St. Augustine, which began around the 18th century. It was formerly known as the Kagay-an Festival and is now officially called Higalaay Festival to reflect the city's identity as the \"City of Golden Friendship\", with \"higala\" meaning friend. The festival grew from its religious roots into a large, vibrant celebration showcasing community pride, unity, and friendship."
       ]
     }
+  ],
+  "Region III": [
+    {
+      "name": "Giant Lantern Festival",
+      "location": "San Fernando, Pampanga",
+      "date": "Mid-December to early January",
+      "image_path": "./assets/region_iii/giant_lantern_festival.png",
+      "paragraphs": [
+        "The Giant Lantern Festival (Ligligan Parul) in San Fernando, Pampanga is a dazzling annual Christmas event showcasing Filipino artistry with giant, intricate lanterns that light up the night, evolving from simple candle-lit paper crafts into elaborate, electric displays by competing villages, symbolizing the Star of Bethlehem and bringing hope."
+      ]
+    },
+    {
+      "name": "Makatapak Festival",
+      "location": "Bacolor, Pampanga",
+      "date": "November 14",
+      "image_path": "./assets/region_iii/makatapak_festival.png",
+      "paragraphs": [
+        "The Makatapak Festival in Bacolor, Pampanga commemorates the town's resilience after the devastating lahar flows from Mt. Pinatubo (1991-1995), with \"Makatapak\" meaning \"barefoot\" in Kapampangan, symbolizing the people's journey through the ash-covered town. Celebrated during the town fiesta in November, it's a vibrant cultural event featuring street dancing, cultural performances, and reenactments that honor the community's faith, strength, and spirit."
+      ]
+    },
+    {
+      "name": "Pahiyas Festival",
+      "location": "Lucban, Quezon Province",
+      "date": "May 15",
+      "image_path": "./assets/region_iii/pahiyas_festival.png",
+      "paragraphs": [
+        "The Pahiyas Festival originated in the 16th century as a thanksgiving ceremony for farmers in Lucban, Quezon to honor San Isidro Labrador, the patron saint of farmers, for a bountiful harvest. It began with farmers bringing produce ot the church for blessings, but this practice evolved as the church could no longer accomodate the large amount of harvest. Today, it is an annual celebration on May 15 where residents decorate their homes with colorful, edible decorations made of fruits, vegetables, and kiping (rice wafers)."
+      ]
+    }
   ]
 }
