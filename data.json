@@ -1,0 +1,62 @@
+{
+  "CAR": [
+    {
+      "name": "Bodong Festival",
+      "location": "Kalinga",
+      "date": "February 3 to 23",
+      "image_path": "./assets/car/bodong_festival.png",
+      "paragraphs": [
+        "The Bodong Festival in Kalinga, Philippines, celebrates the ancient Bodong peace pact, an indigenous system for conflict resolution and inter-tribal alliances, highlighting Kalinga's rich culture through traditional music (gongs), dances (Banga dance), rituals, and unity. It serves as a vibrant showcase of cultural heritage, promoting harmony, resilience, and identity among the different iKalinga tribes, often featuring large-scale cultural performance and world record attempts."
+      ]
+    },
+    {
+      "name": "Kawayan Festival",
+      "location": "Abra",
+      "date": "March 9",
+      "image_path": "./assets/car/kawayan_festival.png",
+      "paragraphs": [
+        "The Kawayan Festival celebrates bamboo, a vital resource for livelihood and culture, in several Philippine towns like Alegria (Cebu) and Mlang (Cotabato), and the entire province of Abra, symbolizing strength, flexibility, and local ingenuity through bamboo crafts, costumes, and parades, marking significant dates like town anniversaries or patron saint feasts (e.g., Abra's March 9th foundation day)."
+      ]
+    },
+    {
+      "name": "Panagbenga Festival",
+      "location": "Baguio City",
+      "date": "February 1 to March 2",
+      "image_path": "./assets/car/panagbenga_festival.png",
+      "paragraphs": [
+        "The Panagbenga Festival rooted in Baguio City's recovery from teh devastating 1990 Luzon earthquake, starting in 1995 as a simple flower show to uplift spirits and boost tourism, evolving into a month-long celebration of blooming flowers and Cordilleran culture, named \"Panagbenga\" (season of blooming) to symbolize resillience, community, and the city's natural beauty. It features grand floral floats, street dancing inspired by the Bendian dance, and celebrates the region's flowers and vibrant spirit."
+      ]
+    }
+  ],
+  "NCR": [
+    {
+      "name": "Bambino Festival",
+      "location": "Pasig",
+      "date": "Third Sunday of January",
+      "image_path": "./assets/ncr/bambino_festival.png",
+      "paragraphs": [
+        "The Bambino Festival is Pasig City's vibrant celebration honoring Sto. Niño (Child Jesus), a key religious festival in the Philippines, similar to Cebu's Sinulog or Iloilo's Dinagyang, focusing on the child's purity, love, and strength, featuring grand parades with devotees bringing their Sto. Niño images, cultural performances, and exhibits to express faith and community unity.",
+        "Like other Sto. Niño festivals, it stems from the production of Christianity in the Philippines, particularly the devotion to the image of the Child Jesus gifted by Ferdinand Magellan in 1521.",
+        "It serves as a spiritual and cultural experience, drawing families together and highlighting Christian values like love, mercy, and purity."
+      ]
+    },
+    {
+      "name": "Feast Day of San Juan",
+      "location": "San Juan",
+      "date": "June 24",
+      "image_path": "./assets/ncr/feast_day_of_san_juan.png",
+      "paragraphs": [
+        "The Feast Day of San Juan (Saint John the Baptist) on June 24th celebrates his birth, marking a significant Christian event and blending with ancient pagan solstice traditions, featuring bonfires, feasting, and water rituals for purification, especially in Hispanic cultures, with traditions like backward plunges in Puerto Rico or mud-covered \"Taong Putik\" in the Philippines, all symbolizing cleansing, renewal, and preparing the way for the Lord."
+      ]
+    },
+    {
+      "name": "Feast of the Black Nazarene",
+      "location": "Manila",
+      "date": "9th of January",
+      "image_path": "./assets/ncr/feast_of_the_black_nazarene.png",
+      "paragraphs": [
+        "The <strong>Feast of the Black Nazarene</strong> commemorates the transfer of a dark wooden statue of Jesus Christ to its home in Quiapo Church. The image was originally brought from Mexico in 1606 by Augustinian Recollect friars and was initially housed in Bagumbayan (now Luneta), then moved to an Intramuros church before its final relocation to Quiapo. The feast is celebrated with a massive procession called the <em>Traslacion</em>, which draws millions of devotees annually.\n<ul><li><b>1606</b>: The image of the Black Nazarene was brought to the Philippines from Mexico by Augustinian Recollect friars.</li><li><b>1608</b>: The image was moved from its initial location at St. John the Baptist Church in Bagumbayan to the Recollects' church in Intramuros.</li><li><b>1621</b>: The <i>Cofradia de Jesus Nazareno</i>, or the Confraternity of Jesus Nazarene, was founded.</li><li><b>1767</b>: On January 9, Manila Archbishop Basilio Sancho de Santas Justa y Rufina ordered the transfer of the image to Quiapo Church. This event is commemorated annually as the <i>Translacion</i>.</li><li><b>1787</b>: The image was canonically installed at Quiapo Church, which became known as the Minor Basilica of the Black Nazarene.</li><li><b>Later events</b>: The image has survived numerous fires and earthquakes, further cementing its miraculous status for devotees. The devotion continues to grow, with the annual feast becoming one of the largest displays of religious fervor in the world.</li></ul>"
+      ]
+    }
+  ]
+}
