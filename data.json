@@ -58,5 +58,34 @@
         "The <strong>Feast of the Black Nazarene</strong> commemorates the transfer of a dark wooden statue of Jesus Christ to its home in Quiapo Church. The image was originally brought from Mexico in 1606 by Augustinian Recollect friars and was initially housed in Bagumbayan (now Luneta), then moved to an Intramuros church before its final relocation to Quiapo. The feast is celebrated with a massive procession called the <em>Traslacion</em>, which draws millions of devotees annually.\n<ul><li><b>1606</b>: The image of the Black Nazarene was brought to the Philippines from Mexico by Augustinian Recollect friars.</li><li><b>1608</b>: The image was moved from its initial location at St. John the Baptist Church in Bagumbayan to the Recollects' church in Intramuros.</li><li><b>1621</b>: The <i>Cofradia de Jesus Nazareno</i>, or the Confraternity of Jesus Nazarene, was founded.</li><li><b>1767</b>: On January 9, Manila Archbishop Basilio Sancho de Santas Justa y Rufina ordered the transfer of the image to Quiapo Church. This event is commemorated annually as the <i>Translacion</i>.</li><li><b>1787</b>: The image was canonically installed at Quiapo Church, which became known as the Minor Basilica of the Black Nazarene.</li><li><b>Later events</b>: The image has survived numerous fires and earthquakes, further cementing its miraculous status for devotees. The devotion continues to grow, with the annual feast becoming one of the largest displays of religious fervor in the world.</li></ul>"
       ]
     }
+  ],
+  "Region I": [
+    {
+      "name": "Bac-Bacarra Festival",
+      "location": "Bacarra, Ilocos Norte",
+      "date": "November 30",
+      "image_path": "./assets/region_i/bac_bacarra_festival.png",
+      "paragraphs": [
+        "The Bac-Bacarra Festival in Bacarra, Ilocos Norte, Philippines, is a vibrant cultural celebration honoring their patron saint, St. Andrew the Apostle, showcasing local heritage, traditions, and agriculture through music, colorgul dances (like the Dance Parade), and thanksgiving, keeping ancestral stories alive for new generations. It's a community event designed to boost local identity and pride, celebrating the farmers and rich culture of Bacarra."
+      ]
+    },
+    {
+      "name": "Guling-Guling Festival",
+      "location": "Paoay, Ilocos Norte",
+      "date": "Late February to Early March",
+      "image_path": "./assets/region_i/guling_guling_festival.png",
+      "paragraphs": [
+        "The Guling-Guling Festival in Paoay, Ilocos Norte, Philippines, is a vibrant pre-Lenten tradition blending Spanish Catholic influence with indigenous Ilocano culture, centered on symbolic cleansing through forehead markings with white rice flour (Guling means \"to smear/mark\") before Lent, symbolizing purity and sin removal, featuring folk dances, music, and communal feasting, highlighting local heritage and unity for over 400 years."
+      ]
+    },
+    {
+      "name": "Pamulinawen Festival",
+      "location": "Laoag City",
+      "date": "February 10",
+      "image_path": "./assets/region_i/pamulinawen_festival.png",
+      "paragraphs": [
+        "The Pamulinawen Festival in Laoag City, Ilocos Norte celebrates the city's patron saint, St. William the Hermit, and its rich Ilocano culture, evolving from a simple feast day into a month-long event with street dancing, parades (including kalesa), culture shows, and trade fairs, named after the popular Ilocano folk song about a modest courtship. It highlights Ilocano heritage, promotes tourism, and fosters community pride through vibrant displays of tradition, music, and local life, starting in early February."
+      ]
+    }
   ]
 }
