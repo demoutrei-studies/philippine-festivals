@@ -16,6 +16,8 @@ body {
     background-color: white;
     border-radius: 13px 13px 0 0;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     left: 0;
     overflow-y: auto;
@@ -35,7 +37,7 @@ body {
       padding: 0 0.45em;
       top: -1em;
       position: sticky;
-      width: 90%;
+      width: 95%;
       z-index: 2;
 
       #navigation-button {
@@ -49,6 +51,55 @@ body {
 
           &.opened {
             transform: rotate(180deg);
+          }
+        }
+      }
+    }
+
+    #container-search {
+      align-self: center;
+      background-color: var(--color-primary);
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1em;
+      padding: 0.25em;
+      position: relative;
+      width: 89%;
+      
+      > #search-bar {
+        background-color: inherit;
+        border: 1px solid gray;;
+        border-radius: inherit;
+        font-family: sans-serif;
+        font-size: 1em;
+        padding: 0.25em 0.85em;
+      }
+
+      > #search-results {
+        display: none;
+        flex-direction: column;
+        gap: 0.25em;
+        list-style-type: none;
+        max-height: 7em;
+        margin: 0.33em;
+        overflow-y: auto;
+        padding-left: 0;
+
+        &.display {
+          display: flex;
+        }
+
+        > li {
+          border: 1px solid black;
+          border-radius: 10px;
+          padding-left: 0;
+          
+          > button {
+            background-color: inherit;
+            border: none;
+            padding: 0.25em 0.5em;
+            width: 100%;
           }
         }
       }
