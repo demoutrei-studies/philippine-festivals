@@ -1,6 +1,6 @@
 const container_navigation = document.getElementById("container-navigation");
+const displayContainer = document.getElementById("display");
 const navigation_button_image = document.getElementById("navigation-button-image");
-const regions = document.querySelectorAll("[region]");
 
 
 function fetchJsonData() {
@@ -10,6 +10,13 @@ function fetchJsonData() {
     })
     .then(data => {
       for (const region in data) {
+        const section_template = `<section region="${region}">
+          <header class="header">
+            <span class="name">${region}</span>
+          </header>
+          <main class="content"></main>
+        </section>`;
+        displayContainer.insertAdjacentHTML("beforeend", section_template);
         section_content = document.querySelector(`[region="${region}"]`).querySelector(".content");
         for (const i in data[region]) {
           festival = data[region][i];
@@ -63,6 +70,7 @@ function navigation() {
 
 function navigateTo(name) {
   navigation();
+  const regions = document.querySelectorAll("[region]");
   for (const region of regions) {
     if (region.getAttribute("region") == name) {
       region.classList.add("display");
