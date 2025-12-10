@@ -261,5 +261,34 @@
         "The Ati-Atihan Festival in Kalibo, Aklan began in the 13th century as a pagan celebration of peace between indigenous Aetas and Malay settlers from Borneo, who blackened their faces with soot to honor the Atis' generosity and shared culture, later evolving into a Catholic feast for the Santo Niño (Infant Jesus), marked by tribal dances, drums, and shouts of \"Hala Bira!\"."
       ]
     }
+  ],
+  "Region VII": [
+    {
+      "name": "Sinulog Festival",
+      "location": "Cebu City",
+      "date": "Third Sunday of January",
+      "image_path": "./assets/region_vii/sinulog_festival.png",
+      "paragraphs": [
+        "The Sinulog Festival is rooted in the 1521 arrival of Ferdinand Magellan in Cebu, who gifted a statue of the Santo Niño (Child Jesus) to the local chieftain's wife, Queen Juana. This gift marked the beginning of Christianity in the Philippines and is now celebrated as the Feast of the Santo Niño. The festival's name comes from the Cebuano word \"sulog\", meaninig \"like water current\", which describes the two-steps-forward, one-step-back motion of the traditional dance performed in honor of the Santo Niño."
+      ]
+    },
+    {
+      "name": "Sandugo Festival",
+      "location": "Tagbilaran City, Bohol",
+      "date": "July 22",
+      "image_path": "./assets/region_vii/sandugo_festival.png",
+      "paragraphs": [
+        "The Sandugo Festival in Bohol, Philippines commemorates the 1565 blood compact (sandugo, meaning \"one blood\") between Datu Sikatuna of Bohol and Spanish conquistador Miguel Lopez de Legazpi, symbolizing a treaty of friendship and marking the start of Spanish colonization, celebrated annually in July with vibrant street dances, cultural shows, and reenactments highlighting this historic bond and Boholano heritage."
+      ]
+    },
+    {
+      "name": "Buglasan Festival",
+      "location": "Dumaguete City, Negros oriental",
+      "date": "October 16 to 26",
+      "image_path": "./assets/region_vii/buglasan_festival.png",
+      "paragraphs": [
+        "The Buglasan Festival is Negros Oriental's premier \"Festival of Festivals\", named after \"Buglas\", the island's pre-Hispanic name, celebrating its rich culture in Dumaguete City every October by gathering all local town and city festivals into one grand event, showcasing unity, diversity, and heritage through vibrant street dances, cultural shows, and unique local traditions. Initiated in 1980/1981, it serves as a grand cultural summit, highlighting each municipality's unique festivities, arts, and traditions in a unified celebration."
+      ]
+    }
   ]
 }
