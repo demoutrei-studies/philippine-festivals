@@ -290,5 +290,35 @@
         "The Buglasan Festival is Negros Oriental's premier \"Festival of Festivals\", named after \"Buglas\", the island's pre-Hispanic name, celebrating its rich culture in Dumaguete City every October by gathering all local town and city festivals into one grand event, showcasing unity, diversity, and heritage through vibrant street dances, cultural shows, and unique local traditions. Initiated in 1980/1981, it serves as a grand cultural summit, highlighting each municipality's unique festivities, arts, and traditions in a unified celebration."
       ]
     }
+  ],
+  "NIR": [
+    {
+      "name": "Panaad sa Negros Festival",
+      "location": "Barangay Mansilingan, Bacolod City, Negros Occidental",
+      "date": "First Week of April",
+      "image_path": "./assets/nir/panaad_sa_negros_festival.png",
+      "paragraphs": [
+        "The Panaad sa Negros Festival, also called simply as the Panaad Festival, is a festival held annually during the month of April in Bacolod, the capital of Negros Occidental province in the Philippines. Panaad is the Hiligaynon word for \"vow\" or \"promise\" coming from the root-word \"saad\", the festival is a form of thanksgiving to Divine Providence and commemoration of a voew in exchange for a good life.",
+        "The celebration is held at the Panaad Park, which also houses the Panaad Stadium, and is participated in by the 13 cities and 19 towns of the province. For this reason, the province dubs it the \"mother\" of all its festivals."
+      ]
+    },
+    {
+      "name": "Sandurot Festival",
+      "location": "Dumaguete City, Negros Oriental",
+      "date": "Fourth Week of September",
+      "image_path": "./assets/nir/sandurot_festival.png",
+      "paragraphs": [
+        "The Sandurot Festival in Dumaguete City, Philippines celebrates the city's history, culture, and renowned hospitality (\"Sandurot\" means \"to fetch\" or \"to meet\"), showcasing its spirit of <i>paghugpong</i> (coming together) through vibrant street dancing and cultural showcases, honoring its heritage as the \"City of Gentle People\". It's a yearly event held in November, featuring colorful performances and artistic expression, inviting locals and tourists to experience Dumaguete's unique blend of tradition and community spirit."
+      ]
+    },
+    {
+      "name": "Tawo-Tawo Festival",
+      "location": "Bayawan City",
+      "date": "February 18",
+      "image_path": "./assets/nir/tawo_tawo_festival.png",
+      "paragraphs": [
+        "The Tawo-Tawo Festival in Bayawan City, Negros Oriental celebrates the city's rich agricultural heritage, especially rice production, and honors its patron saint, Santo Tomas de Villanueva, as a thanksgiving for bountiful harvests, featuring colorful street dancing and cultural shows that symbolize resilience and community unity, initiated in 1986 by local civic groups and later adopted by the government."
+      ]
+    }
   ]
 }
