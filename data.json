@@ -379,5 +379,34 @@
         "The Megayon Festival is an annual cultural celebration in Zamboanga del Sur, Philippines showcasing the rich heritage and unity of its diverse peoples, especially the indigenous Subanen, Moro, and local settlers, through vibrant music, traditional dances, and performances during the province's founding anniversary (Arwa ng Zamboanga del Sur). It's a grand display of local artistry and tradition, emphasizing harmony and cultural pride."
       ]
     }
+  ],
+  "Region X": [
+    {
+      "name": "Kaamulan Festival",
+      "location": "Malaybalay City, Bukidnon",
+      "date": "Second Half of February to March 10",
+      "image_path": "./assets/region_x/kaamulan_festival.png",
+      "paragraphs": [
+        "The Kaamulan Festival originated in 1974 as a small gathering to liven up the fiesta in Malaybalay, inviting indigenous people to perform dances. The name \"Kaamulan\" comes from the Binukid word \"amul\", meaning \"to gather\", and the festival grew to become an annual ethnic celebration that gathers the seven indigenous tribes of Bukidnon to celebrate their shared customs, traditions, and heritage. The celebration has expanded to include rituals, parades, traditional dances, indigenous sports, and cultural showcases."
+      ]
+    },
+    {
+      "name": "Diyandi Festival",
+      "location": "Iligan City",
+      "date": "September 29",
+      "image_path": "./assets/region_x/diyandi_festival.png",
+      "paragraphs": [
+        "The Diyandi Festival in Iligan City, Philippines celebrates its patron saint, St. Michael the Archangel, with a unique blend of Christian faith and indigenous culture, named from the Iliganon word for \"celebrate\". Its background involves the belief that St. Michael protected Iligan from attacks, fostering unity among Muslims, Higaonons, and Christians, highlighted by the Komedya de San Miguel (St. Michael vs Satan dance battle) and culminating in the colorful Kasadyahan street dance parade showcasing Iligan's rich heritage."
+      ]
+    },
+    {
+      "name": "Lanzones Festival",
+      "location": "Camiguin Island",
+      "date": "Third Week of October",
+      "image_path": "./assets/region_x/lanzones_festival.png",
+      "paragraphs": [
+        "The Lanzones Festival in Camiguin, Philippines started in 1979 as a thanksgiving for the bountiful harvest of the sweet lanzones fruit, aiming to boost tourism, evolving from simple fairs and dances into a major cultural event with street dancing, pageants, and trade fairs, all rooted in legends of magical fruit and divine blessings for the islanders."
+      ]
+    }
   ]
 }
