@@ -350,5 +350,34 @@
         "The custom is called \"mayaw\" or \"gamit\" in Waray joined by the enthusiastic beat of the drums and other privately made melodic instruments, for example, bamboo woodwinds. Amid time long past circumstances, it was performed by a \"tambalan\" which was accepted to be somebody with mending powers and can speak with the sould world, may it be great ot bad."
       ]
     }
+  ],
+  "Region IX": [
+    {
+      "name": "Zamboanga Hermosa Festival",
+      "location": "Zamboanga City",
+      "date": "October 12",
+      "image_path": "./assets/region_ix/zamboanga_hermosa_festival.png",
+      "paragraphs": [
+        "The Zamboanga Hermosa Festival or (Fiesta Pilar) is a month-long cultural and religious celebration in Zamboanga CIty, Philippines held every October, honoring the city's patron saint, Nuestra Señora del Pilar (Our Lady of the Pillar), with the main feast day on October 12, featuring vibrant street dances, the Regatta de Zamboanga (sailboat races), and cultural shows blending indigenous, Spanish, and Muslim traditions, showcasing Zamboanga's rich heritage."
+      ]
+    },
+    {
+      "name": "Sibug-Sibug Festival",
+      "location": "Ipal, Zamboanga Sibugay",
+      "date": "February 24",
+      "image_path": "./assets/region_ix/sibug_sibug_festival.png",
+      "paragraphs": [
+        "The Sibug-Sibug Festival celebrates the rich culture, history, and resources of Zamboanga Sibugay, named after the Sibuguey River, highlighting its vibrant marine life (especially oysters and seaweed), indigenous peoples, and the resilience of its early settlers, featuring colorful street dances, cultural presentations, and events like the long oyster grill to showcase local pride and economic vitality."
+      ]
+    },
+    {
+      "name": "Megayon Festival",
+      "location": "Zamboanga del Sur",
+      "date": "September 17",
+      "image_path": "./assets/region_ix/megayon_festival.png",
+      "paragraphs": [
+        "The Megayon Festival is an annual cultural celebration in Zamboanga del Sur, Philippines showcasing the rich heritage and unity of its diverse peoples, especially the indigenous Subanen, Moro, and local settlers, through vibrant music, traditional dances, and performances during the province's founding anniversary (Arwa ng Zamboanga del Sur). It's a grand display of local artistry and tradition, emphasizing harmony and cultural pride."
+      ]
+    }
   ]
 }
