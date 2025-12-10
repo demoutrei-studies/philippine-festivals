@@ -496,5 +496,34 @@
         "The Lisagan Festival is the annual religious and cultural celebration in Magallanes, Agusan del Norte, Philippines honoring their patroness, Our Lady of the Rosary (Nuestra Señora del Rosario), known for miraculous healing, blending Christian faith with local Manobo traditions (like the \"Lisagan\" beat and indigenous costumes) to express gratitude for blessings and uplift tourism."
       ]
     }
+  ],
+  "BARMM": [
+    {
+      "name": "Shariff Kabunsuan Festival",
+      "location": "Cotabato City, Mindanao",
+      "date": "December 19",
+      "image_path": "./assets/barmm/shariff_kabunsuan_festival.png",
+      "paragraphs": [
+        "The Shariff Kabunsuan Festival in Cotabato City commemorates the arrival of Shariff Kabunsuan, an Arab-Malay missionary who introduced Islam to Mindanao in the 16th century, establishing the Sultanate system and shaping the Bangsamoro identity. Celebrated annually in December, it's a vibrant cultural event featuring the iconic Guinakit Fluvial Parade (decorated boats), street dancing, traditional games, and cultural exhibits, blending historical remembrance with modern progress and unity among Muslims, Christians, and Indigenous Peoples."
+      ]
+    },
+    {
+      "name": "Kanduli Festival",
+      "location": "Lutayan, Sultan Kudarat",
+      "date": "Late August to October",
+      "image_path": "./assets/barmm/kanduli_festival.png",
+      "paragraphs": [
+        "The Kanduli Festival is a significant Maguindanaoan cultural celebration, stemming from the word for \"offering\", centered on deep spiritual gratitude to God for blessings, promoting unity, and showcasing rich traditions through activities like Quranic recitations, cultural dances, food fairs, and community feasts, uniting Muslims, Christians, and Indigenous Peoples in celebrating peace, abundance, and progress, particularly in areas like Lutayan, Sultan Kudarat, Philippines."
+      ]
+    },
+    {
+      "name": "Lepa Festival",
+      "location": "Tawi-Tawi",
+      "date": "September 24",
+      "image_path": "./assets/barmm/lepa_festival.png",
+      "paragraphs": [
+        "The Lepa Festival celebrates the rich maritime culture of the Sama Dilaut (Badjao) people, particularly in Tawi-Tawi, Philippines, and Sabah, Malaysia, focusing on their traditional houseboats called \"lepa\" or \"vinta\". These intricately decorated boats, historically nomadic homes for the sea-farming Sama people, are showcased in colorful fluvial parades, symbolizing their heritage, resilience, and unique way of life through traditional music, dances, and cultural contests like the \"Queen of Lepa\"."
+      ]
+    }
   ]
 }
