@@ -203,5 +203,34 @@
         "The Baragatan Festival in Palawan, held annually around June 17 to 23, celebrates the province's founding, with \"Baragatan\" meaning \"to meet\" in Cuyunon, symbolizing unity and the convergence of its diverse cultures through street dances, trade fairs (Barakalan), and cultural shows, showcasing local products, and fostering community spirit."
       ]
     }
+  ],
+  "Region V": [
+    {
+      "name": "Ibalong Festival",
+      "location": "Legazpi City, Albay",
+      "date": "August 21 to September 6",
+      "image_path": "./assets/region_v/ibalong_festival.png",
+      "paragraphs": [
+        "The Ibalong Festival is rooted in the Ibalong Epic, a Bicolano folk epic that tells the story of the ancient region of Ibalon. The festival celebrates three legendary heroes -- Baltog, Handyong, and Bantong -- who battled mythical beasts and monsters to protect their homeland. It is a non-religious festival held annually in Legazpi City, Albay to showcase Bicolano identity and culture."
+      ]
+    },
+    {
+      "name": "Peñafrancia Festival",
+      "location": "Naga City, Camarines Sur",
+      "date": "Third Sunday of September",
+      "image_path": "./assets/region_v/penafrancia_festival.png",
+      "paragraphs": [
+        "The Peñafrancia Festival began with a Spanish priest, Fr. Miguel Robles de Covarrubias, who brought the devotion to Our Lady of Peñafrancia to the Philippines in the early 18th century after being miraculously healed. Inspired by the image's reported miracles, the devotion in the Bicol region, especially in Naga City, grew rapidly and became a significant cultural and religious event. The tradition is now a month-long celebration highlighted by the solemn Traslacion and Fluvial Processions, where the image is moved and then returned to the Minor Basilica of Our Lady of Peñafrancia."
+      ]
+    },
+    {
+      "name": "Kaogma Festival",
+      "location": "Camarines Sur",
+      "date": "May 23 to 28",
+      "image_path": "./assets/region_v/kaogma_festival.png",
+      "paragraphs": [
+        "The Kaogma Festival, meaning \"a good time\", is Camarines Sur's (CamSur) grand annual celebration marking the province's foundation day (May 27) since 1989, evolving from a small event to the \"World's Hottest Festival\" with vibrant street parties, concerts, sports, arts, and cultural shows like the Miss Kaogma pageant, showcasing CamSur's culture, faith, and people to attract tourists and boost local economy."
+      ]
+    }
   ]
 }
