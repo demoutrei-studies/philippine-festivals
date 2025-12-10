@@ -174,5 +174,34 @@
         "The Pili Festival in Sorsogon, Philippines is a vibrant cultural and religious celebration in June, centered on the indigenous pili nut, highlighting its economic importance and the region's rich harvest, coinciding with the feast of Saints Peter and Paul, and featuring parades, competitions, and cultural showcases. Conceptualized in 1999, it brings together faith, community, and the unique pili tree that defines Sorsogon's way of life."
       ]
     }
+  ],
+  "Mimaropa": [
+    {
+      "name": "Moriones Festival",
+      "location": "Marinduque",
+      "date": "April 14 to 20",
+      "image_path": "./assets/mimaropa/moriones_festival.png",
+      "paragraphs": [
+        "The Moriones Festival in Marinduque, Philippines started in the 1870s/1880s, initiated by Fr. Dionisio Santiago in Mogpog, to teach the Passion of Christ during Holy Week. It's named for the \"Moriones\" (Roman soldiers in morrion helmets) who re-enact the story of St. Longinus, a centurion miraculously healed by Christ's blood, leading to his conversion and martyrdom. The festival involves penitents (\"Morions\") wearing elaborate masks and costumes, roaming streets from Holy Monday to Easter Sunday, seeking Longinus, and performing acts of penance (panata)."
+      ]
+    },
+    {
+      "name": "Bila-Bila Festival",
+      "location": "Boac, Marinduque",
+      "date": "May 16 to 23",
+      "image_path": "./assets/mimaropa/bila_bila_festival.png",
+      "paragraphs": [
+        "The Bila-Bila Festival (Butterfly Festival) in Marinduque, Philippines celebrates the province's rich butterfly diversity, showcasing it as the \"Butterfly Capital of the Philippines\" through vibrant parades with kids in colorful costumes, butterfly-themed performances, and activities promoting environmental conservation and the local butterfly farming industry, serving as a cultural event for heritage, tourism, and education."
+      ]
+    },
+    {
+      "name": "Baragatan Festival",
+      "location": "Palawan",
+      "date": "June 17 to 23",
+      "image_path": "./assets/mimaropa/baragatan_festival.png",
+      "paragraphs": [
+        "The Baragatan Festival in Palawan, held annually around June 17 to 23, celebrates the province's founding, with \"Baragatan\" meaning \"to meet\" in Cuyunon, symbolizing unity and the convergence of its diverse cultures through street dances, trade fairs (Barakalan), and cultural shows, showcasing local products, and fostering community spirit."
+      ]
+    }
   ]
 }
