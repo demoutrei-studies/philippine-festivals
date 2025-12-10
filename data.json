@@ -437,5 +437,35 @@
         "The Panagtagbo Festival in Mandaue City, Cebu celebrates the \"meeting\" (Panagtagbo) of the Holy Family -- Jesus (Sto. Niño), Virgin Mary, and St. Joseph -- re-enacting the Traslacion or transafer of the Sto. Niño image, symbolizing Christian faith and unity, replacing the older Mantawi Festival to highlight Mandaue's identity and devotion, especially around St. Joseph's feast day in May. It's a vibrant cultural event with street dancing and pageantry, deeply tied to the Sinulog Festival's religious roots."
       ]
     }
+  ],
+  "Region XII": [
+    {
+      "name": "T'nalak Festival",
+      "location": "Koronadal City, South Cotabato",
+      "date": "July 18th",
+      "image_path": "./assets/region_xii/tnalak_festival.png",
+      "paragraphs": [
+        "The T'nalak Festival in South Cotabato, Philippines started in 1999 to celebrate the province's founding, honoring the T'boli people and their sacred, dream-inspired t'nalak cloth, a rich tradition where T'boli women, known as \"dreamweavers\", weave intricate patterns from their dreams guided by the goddess Fu Daly, symbolizing cultural unity, strength, and history through its vibrant colors (white, red, black)."
+      ]
+    },
+    {
+      "name": "MunaTo Festival",
+      "location": "Alabel, Sarangani Province",
+      "date": "Last Week of November",
+      "image_path": "./assets/region_xii/munato_festival.png",
+      "paragraphs": [
+        "The MunaTo Festival in Sarangani, Philippines celebrates the province's founding and rich cultural heritage, named from the B'laan words \"Muna\" (first) and \"to\" (people) after ancient anthropomorphic jars found in Maitum, signifying early civilization.",
+        "Conceptualized in 2002, it unites the seven municipalities for a vibrant cultural showcase, highlighting traditions, art, music, and unity, often linked to the discovery of ancient human-shaped pottery indicating the region as home to early peoples."
+      ]
+    },
+    {
+      "name": "Tuna Festival",
+      "location": "General Santos City",
+      "date": "September 5",
+      "image_path": "./assets/region_xii/tuna_festival.png",
+      "paragraphs": [
+        "The Tuna Festival started in General Santos City, Philippines in 1998, evolving from a local cuisine showcase during the city's 30th anniversary into an annual week-long event celebrating its status as the \"Tuna Capital of the Philippines\". It's held in early September, featuring tuna-themed parades, street dances (like Lawihan), boat races (Bancarera), culinary contests, and the National Tuna Congress, all honoring the local fishing industry, maritime culture, and the community's resilience and unity."
+      ]
+    }
   ]
 }
