@@ -408,5 +408,34 @@
         "The Lanzones Festival in Camiguin, Philippines started in 1979 as a thanksgiving for the bountiful harvest of the sweet lanzones fruit, aiming to boost tourism, evolving from simple fairs and dances into a major cultural event with street dancing, pageants, and trade fairs, all rooted in legends of magical fruit and divine blessings for the islanders."
       ]
     }
+  ],
+  "Region XI": [
+    {
+      "name": "Kadayawan Festival",
+      "location": "Davao City",
+      "date": "August 15 to 17",
+      "image_path": "./assets/region_xi/kadayawan_festival.png",
+      "paragraphs": [
+        "The Kadayawan Festival in Davao City, Philippines started as tribal thanksgiving for nature's bounty, evolving from indigenous harvest rituals to a grand cultural event celebrating Davao's rich diversity, wealth of culture, and bountiful harvests, officially named in 1988 from the word \"Madayaw\" (beautiful, good) to unite people and showcase Mindanao's 11 tribes' traditions through vibrant parades, dances, and cultural displays."
+      ]
+    },
+    {
+      "name": "Araw ng Dabaw",
+      "location": "Davao City",
+      "date": "March 1",
+      "image_path": "./assets/region_xi/araw_ng_dabaw.png",
+      "paragraphs": [
+        "Araw ng Dabaw is a month-long celebration with various activities held in Davao every March. It's also the name of Davao City's Charter Day celebrated on March 16 annually"
+      ]
+    },
+    {
+      "name": "Panagtagbo Festival",
+      "location": "Mandaue City, Cebu",
+      "date": "May 4",
+      "image_path": "./assets/region_xi/panagtagbo_festival.png",
+      "paragraphs": [
+        "The Panagtagbo Festival in Mandaue City, Cebu celebrates the \"meeting\" (Panagtagbo) of the Holy Family -- Jesus (Sto. Niño), Virgin Mary, and St. Joseph -- re-enacting the Traslacion or transafer of the Sto. Niño image, symbolizing Christian faith and unity, replacing the older Mantawi Festival to highlight Mandaue's identity and devotion, especially around St. Joseph's feast day in May. It's a vibrant cultural event with street dancing and pageantry, deeply tied to the Sinulog Festival's religious roots."
+      ]
+    }
   ]
 }
