@@ -145,5 +145,34 @@
         "The Pahiyas Festival originated in the 16th century as a thanksgiving ceremony for farmers in Lucban, Quezon to honor San Isidro Labrador, the patron saint of farmers, for a bountiful harvest. It began with farmers bringing produce ot the church for blessings, but this practice evolved as the church could no longer accomodate the large amount of harvest. Today, it is an annual celebration on May 15 where residents decorate their homes with colorful, edible decorations made of fruits, vegetables, and kiping (rice wafers)."
       ]
     }
+  ],
+  "Region IV-A": [
+    {
+      "name": "Higante Festival",
+      "location": "Angono, Rizal",
+      "date": "November 22 and 23",
+      "image_path": "./assets/region_iv_a/higante_festival.png",
+      "paragraphs": [
+        "The Higantes Festival in Angono, Rizal celebrates San Clemente with giant papier-mache puppets (higantes) paraded during the town fiesta, originating from Spanish colonial times as a subtle protest by locals against strict landlords by mocking them with the large figures, evolving from resistance to a vibrant cultural expression of community spirit, artistic skill, and gratitude for abundant fish from Laguna Bay."
+      ]
+    },
+    {
+      "name": "Bangkero Festival",
+      "location": "Pagsanjan, Laguna",
+      "date": "March 19 to March 22",
+      "image_path": "./assets/region_iv_a/bangkero_festival.png",
+      "paragraphs": [
+        "The Bangkero Festival in Pagsanjan, Laguna celebrates the town's skilled boatmen (bangkeros) who navigate the famous Pagsanjan River, highlighting local culture, tourism (especially Pagsanjan Falls), and community spirit through boat races (regatta), fluvial parades, cultural street dancing, and trade fairs, honoring these river heroes and promoting Pagsanjan's heritage and local delicacies."
+      ]
+    },
+    {
+      "name": "Pili Festival",
+      "location": "Sorsogon City",
+      "date": "June 29th",
+      "image_path": "./assets/region_iv_a/pili_festival.png",
+      "paragraphs": [
+        "The Pili Festival in Sorsogon, Philippines is a vibrant cultural and religious celebration in June, centered on the indigenous pili nut, highlighting its economic importance and the region's rich harvest, coinciding with the feast of Saints Peter and Paul, and featuring parades, competitions, and cultural showcases. Conceptualized in 1999, it brings together faith, community, and the unique pili tree that defines Sorsogon's way of life."
+      ]
+    }
   ]
 }
