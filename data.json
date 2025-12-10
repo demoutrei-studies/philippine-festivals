@@ -320,5 +320,35 @@
         "The Tawo-Tawo Festival in Bayawan City, Negros Oriental celebrates the city's rich agricultural heritage, especially rice production, and honors its patron saint, Santo Tomas de Villanueva, as a thanksgiving for bountiful harvests, featuring colorful street dancing and cultural shows that symbolize resilience and community unity, initiated in 1986 by local civic groups and later adopted by the government."
       ]
     }
+  ],
+  "Region VIII": [
+    {
+      "name": "Pintados-Kasadyaan Festival",
+      "location": "Tacloban City, Leyte",
+      "date": "June 29",
+      "image_path": "./assets/region_viii/pintados_kasadyaan_festival.png",
+      "paragraphs": [
+        "The Pintados-Kasadyaan Festival in Tacloban, Leyte celebrates the rich indigenous culture of the Visayas, honoring the ancient \"Pintados\" (painted ones) warriors known for their intricate tattoos, merging with the region's vibrant festival of festivals, Kasadyaan, on June 29th to honor the Santo Niño, showcasing cultural pride through body-painted dancers, folklore, and thanksgiving for harvests through grand parades."
+      ]
+    },
+    {
+      "name": "Buyogan Festival",
+      "location": "Abuyog, Leyte",
+      "date": "August 19",
+      "image_path": "./assets/region_viii/buyogan_festival.png",
+      "paragraphs": [
+        "The Buyogan Festival in Abuyog, Leyte celebrates the town's name origin from the local bees (\"buyog\") with vibrant street dances mimicking bee movements, highlighting industriousness, resilience, and nature's importance, a tradition that gained national fame after winning the Aliwan Festival. It's a cultural showcase of Abuyog's history, featuring colorful dancers in tribal designs, emphasizing the bee's significance for ecology and health."
+      ]
+    },
+    {
+      "name": "Mayaw-Mayaw Festival",
+      "location": "Pinabacdao, Samar",
+      "date": "May 10",
+      "image_path": "./assets/region_viii/mayaw_mayaw_festival.png",
+      "paragraphs": [
+        "The Mayaw-Mayaw Festival is a yearly thanksgiving festivity each tenth of May. The festival are featured with move and dramatization challenges, social introductions and road moving rivalry. The festival began as an aesthetic move that portrays an old custom amid the pre-Spanish time that is as yet being drilled in Pinabacdao and taken an interest by nearby agriculturists, schools, open gatherings and barangays.",
+        "The custom is called \"mayaw\" or \"gamit\" in Waray joined by the enthusiastic beat of the drums and other privately made melodic instruments, for example, bamboo woodwinds. Amid time long past circumstances, it was performed by a \"tambalan\" which was accepted to be somebody with mending powers and can speak with the sould world, may it be great ot bad."
+      ]
+    }
   ]
 }
