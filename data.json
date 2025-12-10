@@ -232,5 +232,34 @@
         "The Kaogma Festival, meaning \"a good time\", is Camarines Sur's (CamSur) grand annual celebration marking the province's foundation day (May 27) since 1989, evolving from a small event to the \"World's Hottest Festival\" with vibrant street parties, concerts, sports, arts, and cultural shows like the Miss Kaogma pageant, showcasing CamSur's culture, faith, and people to attract tourists and boost local economy."
       ]
     }
+  ],
+  "Region VI": [
+    {
+      "name": "Dinagyang Festival",
+      "location": "Iloilo City",
+      "date": "Fourth Sunday of January",
+      "image_path": "./assets/region_vi/dinagyang_festival.png",
+      "paragraphs": [
+        "The Dinagyang Festival in Iloilo City has rooted in the reverence for the Holy Child Jesus (Santo Niño) and the commemoration of the Barter of Panay. It began in 1967 and was inspired by the Ati-atihan Festival, with a replica of the Santo Niño first brought to the city, sparking local celebrations that evolved into the grand annual event it is today. The festival's name, \"Dinagyang\", is a Hiligaynon word for \"merrymaking\"."
+      ]
+    },
+    {
+      "name": "MassKara Festival",
+      "location": "Bacolod City",
+      "date": "October 17 to 19",
+      "image_path": "./assets/region_vi/masskara_festival.png",
+      "paragraphs": [
+        "The MassKara Festival started in Bacolod City in 1980 during a severe economic crisis due to the sugar price crash and a tragic ferry disaster, prompting officials to create a \"festival of smiles\" using masks to uplift spirits and showcase resilience and optimism. Named for \"mask\" (massa) and \"laughter\" (kara), it features vibrant street dancing, colorful masks with smiling faces, parades, and competitions, transforming Bacolod into the \"City of Smiles\" and becoming a major cultural and tourism event."
+      ]
+    },
+    {
+      "name": "Ati-Atihan Festival",
+      "location": "Kalibo, Aklan",
+      "date": "Third Sunday of January",
+      "image_path": "./assets/region_vi/ati_atihan_festival.png",
+      "paragraphs": [
+        "The Ati-Atihan Festival in Kalibo, Aklan began in the 13th century as a pagan celebration of peace between indigenous Aetas and Malay settlers from Borneo, who blackened their faces with soot to honor the Atis' generosity and shared culture, later evolving into a Catholic feast for the Santo Niño (Infant Jesus), marked by tribal dances, drums, and shouts of \"Hala Bira!\"."
+      ]
+    }
   ]
 }
