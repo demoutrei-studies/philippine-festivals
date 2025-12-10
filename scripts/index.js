@@ -1,15 +1,18 @@
 const container_navigation = document.getElementById("container-navigation");
 const displayContainer = document.getElementById("display");
 const navigation_button_image = document.getElementById("navigation-button-image");
+const navigationElement = document.getElementById("navigation");
 
 
-function fetchJsonData() {
+function setupHook() {
   fetch('./data.json')
     .then(response => {
       return response.json();
     })
     .then(data => {
       for (const region in data) {
+        const navigation_template = `<button class="navigation-item" onclick="navigateTo(this.textContent);">${region}</button>`;
+        navigationElement.insertAdjacentHTML("beforeend", navigation_template);
         const section_template = `<section region="${region}">
           <header class="header">
             <span class="name">${region}</span>
@@ -52,7 +55,7 @@ function fetchJsonData() {
     })
 }
 
-fetchJsonData();
+setupHook();
 
 
 function navigation() {

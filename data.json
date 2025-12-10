@@ -1,4 +1,33 @@
 {
+  "BARMM": [
+    {
+      "name": "Shariff Kabunsuan Festival",
+      "location": "Cotabato City, Mindanao",
+      "date": "December 19",
+      "image_path": "./assets/barmm/shariff_kabunsuan_festival.png",
+      "paragraphs": [
+        "The Shariff Kabunsuan Festival in Cotabato City commemorates the arrival of Shariff Kabunsuan, an Arab-Malay missionary who introduced Islam to Mindanao in the 16th century, establishing the Sultanate system and shaping the Bangsamoro identity. Celebrated annually in December, it's a vibrant cultural event featuring the iconic Guinakit Fluvial Parade (decorated boats), street dancing, traditional games, and cultural exhibits, blending historical remembrance with modern progress and unity among Muslims, Christians, and Indigenous Peoples."
+      ]
+    },
+    {
+      "name": "Kanduli Festival",
+      "location": "Lutayan, Sultan Kudarat",
+      "date": "Late August to October",
+      "image_path": "./assets/barmm/kanduli_festival.png",
+      "paragraphs": [
+        "The Kanduli Festival is a significant Maguindanaoan cultural celebration, stemming from the word for \"offering\", centered on deep spiritual gratitude to God for blessings, promoting unity, and showcasing rich traditions through activities like Quranic recitations, cultural dances, food fairs, and community feasts, uniting Muslims, Christians, and Indigenous Peoples in celebrating peace, abundance, and progress, particularly in areas like Lutayan, Sultan Kudarat, Philippines."
+      ]
+    },
+    {
+      "name": "Lepa Festival",
+      "location": "Tawi-Tawi",
+      "date": "September 24",
+      "image_path": "./assets/barmm/lepa_festival.png",
+      "paragraphs": [
+        "The Lepa Festival celebrates the rich maritime culture of the Sama Dilaut (Badjao) people, particularly in Tawi-Tawi, Philippines, and Sabah, Malaysia, focusing on their traditional houseboats called \"lepa\" or \"vinta\". These intricately decorated boats, historically nomadic homes for the sea-farming Sama people, are showcased in colorful fluvial parades, symbolizing their heritage, resilience, and unique way of life through traditional music, dances, and cultural contests like the \"Queen of Lepa\"."
+      ]
+    }
+  ],
   "CAR": [
     {
       "name": "Bodong Festival",
@@ -25,6 +54,35 @@
       "image_path": "./assets/car/panagbenga_festival.png",
       "paragraphs": [
         "The Panagbenga Festival rooted in Baguio City's recovery from teh devastating 1990 Luzon earthquake, starting in 1995 as a simple flower show to uplift spirits and boost tourism, evolving into a month-long celebration of blooming flowers and Cordilleran culture, named \"Panagbenga\" (season of blooming) to symbolize resillience, community, and the city's natural beauty. It features grand floral floats, street dancing inspired by the Bendian dance, and celebrates the region's flowers and vibrant spirit."
+      ]
+    }
+  ],
+  "Mimaropa": [
+    {
+      "name": "Moriones Festival",
+      "location": "Marinduque",
+      "date": "April 14 to 20",
+      "image_path": "./assets/mimaropa/moriones_festival.png",
+      "paragraphs": [
+        "The Moriones Festival in Marinduque, Philippines started in the 1870s/1880s, initiated by Fr. Dionisio Santiago in Mogpog, to teach the Passion of Christ during Holy Week. It's named for the \"Moriones\" (Roman soldiers in morrion helmets) who re-enact the story of St. Longinus, a centurion miraculously healed by Christ's blood, leading to his conversion and martyrdom. The festival involves penitents (\"Morions\") wearing elaborate masks and costumes, roaming streets from Holy Monday to Easter Sunday, seeking Longinus, and performing acts of penance (panata)."
+      ]
+    },
+    {
+      "name": "Bila-Bila Festival",
+      "location": "Boac, Marinduque",
+      "date": "May 16 to 23",
+      "image_path": "./assets/mimaropa/bila_bila_festival.png",
+      "paragraphs": [
+        "The Bila-Bila Festival (Butterfly Festival) in Marinduque, Philippines celebrates the province's rich butterfly diversity, showcasing it as the \"Butterfly Capital of the Philippines\" through vibrant parades with kids in colorful costumes, butterfly-themed performances, and activities promoting environmental conservation and the local butterfly farming industry, serving as a cultural event for heritage, tourism, and education."
+      ]
+    },
+    {
+      "name": "Baragatan Festival",
+      "location": "Palawan",
+      "date": "June 17 to 23",
+      "image_path": "./assets/mimaropa/baragatan_festival.png",
+      "paragraphs": [
+        "The Baragatan Festival in Palawan, held annually around June 17 to 23, celebrates the province's founding, with \"Baragatan\" meaning \"to meet\" in Cuyunon, symbolizing unity and the convergence of its diverse cultures through street dances, trade fairs (Barakalan), and cultural shows, showcasing local products, and fostering community spirit."
       ]
     }
   ],
@@ -56,6 +114,36 @@
       "image_path": "./assets/ncr/feast_of_the_black_nazarene.png",
       "paragraphs": [
         "The <strong>Feast of the Black Nazarene</strong> commemorates the transfer of a dark wooden statue of Jesus Christ to its home in Quiapo Church. The image was originally brought from Mexico in 1606 by Augustinian Recollect friars and was initially housed in Bagumbayan (now Luneta), then moved to an Intramuros church before its final relocation to Quiapo. The feast is celebrated with a massive procession called the <em>Traslacion</em>, which draws millions of devotees annually.\n<ul><li><b>1606</b>: The image of the Black Nazarene was brought to the Philippines from Mexico by Augustinian Recollect friars.</li><li><b>1608</b>: The image was moved from its initial location at St. John the Baptist Church in Bagumbayan to the Recollects' church in Intramuros.</li><li><b>1621</b>: The <i>Cofradia de Jesus Nazareno</i>, or the Confraternity of Jesus Nazarene, was founded.</li><li><b>1767</b>: On January 9, Manila Archbishop Basilio Sancho de Santas Justa y Rufina ordered the transfer of the image to Quiapo Church. This event is commemorated annually as the <i>Translacion</i>.</li><li><b>1787</b>: The image was canonically installed at Quiapo Church, which became known as the Minor Basilica of the Black Nazarene.</li><li><b>Later events</b>: The image has survived numerous fires and earthquakes, further cementing its miraculous status for devotees. The devotion continues to grow, with the annual feast becoming one of the largest displays of religious fervor in the world.</li></ul>"
+      ]
+    }
+  ],
+  "NIR": [
+    {
+      "name": "Panaad sa Negros Festival",
+      "location": "Barangay Mansilingan, Bacolod City, Negros Occidental",
+      "date": "First Week of April",
+      "image_path": "./assets/nir/panaad_sa_negros_festival.png",
+      "paragraphs": [
+        "The Panaad sa Negros Festival, also called simply as the Panaad Festival, is a festival held annually during the month of April in Bacolod, the capital of Negros Occidental province in the Philippines. Panaad is the Hiligaynon word for \"vow\" or \"promise\" coming from the root-word \"saad\", the festival is a form of thanksgiving to Divine Providence and commemoration of a voew in exchange for a good life.",
+        "The celebration is held at the Panaad Park, which also houses the Panaad Stadium, and is participated in by the 13 cities and 19 towns of the province. For this reason, the province dubs it the \"mother\" of all its festivals."
+      ]
+    },
+    {
+      "name": "Sandurot Festival",
+      "location": "Dumaguete City, Negros Oriental",
+      "date": "Fourth Week of September",
+      "image_path": "./assets/nir/sandurot_festival.png",
+      "paragraphs": [
+        "The Sandurot Festival in Dumaguete City, Philippines celebrates the city's history, culture, and renowned hospitality (\"Sandurot\" means \"to fetch\" or \"to meet\"), showcasing its spirit of <i>paghugpong</i> (coming together) through vibrant street dancing and cultural showcases, honoring its heritage as the \"City of Gentle People\". It's a yearly event held in November, featuring colorful performances and artistic expression, inviting locals and tourists to experience Dumaguete's unique blend of tradition and community spirit."
+      ]
+    },
+    {
+      "name": "Tawo-Tawo Festival",
+      "location": "Bayawan City",
+      "date": "February 18",
+      "image_path": "./assets/nir/tawo_tawo_festival.png",
+      "paragraphs": [
+        "The Tawo-Tawo Festival in Bayawan City, Negros Oriental celebrates the city's rich agricultural heritage, especially rice production, and honors its patron saint, Santo Tomas de Villanueva, as a thanksgiving for bountiful harvests, featuring colorful street dancing and cultural shows that symbolize resilience and community unity, initiated in 1986 by local civic groups and later adopted by the government."
       ]
     }
   ],
@@ -175,35 +263,6 @@
       ]
     }
   ],
-  "Mimaropa": [
-    {
-      "name": "Moriones Festival",
-      "location": "Marinduque",
-      "date": "April 14 to 20",
-      "image_path": "./assets/mimaropa/moriones_festival.png",
-      "paragraphs": [
-        "The Moriones Festival in Marinduque, Philippines started in the 1870s/1880s, initiated by Fr. Dionisio Santiago in Mogpog, to teach the Passion of Christ during Holy Week. It's named for the \"Moriones\" (Roman soldiers in morrion helmets) who re-enact the story of St. Longinus, a centurion miraculously healed by Christ's blood, leading to his conversion and martyrdom. The festival involves penitents (\"Morions\") wearing elaborate masks and costumes, roaming streets from Holy Monday to Easter Sunday, seeking Longinus, and performing acts of penance (panata)."
-      ]
-    },
-    {
-      "name": "Bila-Bila Festival",
-      "location": "Boac, Marinduque",
-      "date": "May 16 to 23",
-      "image_path": "./assets/mimaropa/bila_bila_festival.png",
-      "paragraphs": [
-        "The Bila-Bila Festival (Butterfly Festival) in Marinduque, Philippines celebrates the province's rich butterfly diversity, showcasing it as the \"Butterfly Capital of the Philippines\" through vibrant parades with kids in colorful costumes, butterfly-themed performances, and activities promoting environmental conservation and the local butterfly farming industry, serving as a cultural event for heritage, tourism, and education."
-      ]
-    },
-    {
-      "name": "Baragatan Festival",
-      "location": "Palawan",
-      "date": "June 17 to 23",
-      "image_path": "./assets/mimaropa/baragatan_festival.png",
-      "paragraphs": [
-        "The Baragatan Festival in Palawan, held annually around June 17 to 23, celebrates the province's founding, with \"Baragatan\" meaning \"to meet\" in Cuyunon, symbolizing unity and the convergence of its diverse cultures through street dances, trade fairs (Barakalan), and cultural shows, showcasing local products, and fostering community spirit."
-      ]
-    }
-  ],
   "Region V": [
     {
       "name": "Ibalong Festival",
@@ -288,36 +347,6 @@
       "image_path": "./assets/region_vii/buglasan_festival.png",
       "paragraphs": [
         "The Buglasan Festival is Negros Oriental's premier \"Festival of Festivals\", named after \"Buglas\", the island's pre-Hispanic name, celebrating its rich culture in Dumaguete City every October by gathering all local town and city festivals into one grand event, showcasing unity, diversity, and heritage through vibrant street dances, cultural shows, and unique local traditions. Initiated in 1980/1981, it serves as a grand cultural summit, highlighting each municipality's unique festivities, arts, and traditions in a unified celebration."
-      ]
-    }
-  ],
-  "NIR": [
-    {
-      "name": "Panaad sa Negros Festival",
-      "location": "Barangay Mansilingan, Bacolod City, Negros Occidental",
-      "date": "First Week of April",
-      "image_path": "./assets/nir/panaad_sa_negros_festival.png",
-      "paragraphs": [
-        "The Panaad sa Negros Festival, also called simply as the Panaad Festival, is a festival held annually during the month of April in Bacolod, the capital of Negros Occidental province in the Philippines. Panaad is the Hiligaynon word for \"vow\" or \"promise\" coming from the root-word \"saad\", the festival is a form of thanksgiving to Divine Providence and commemoration of a voew in exchange for a good life.",
-        "The celebration is held at the Panaad Park, which also houses the Panaad Stadium, and is participated in by the 13 cities and 19 towns of the province. For this reason, the province dubs it the \"mother\" of all its festivals."
-      ]
-    },
-    {
-      "name": "Sandurot Festival",
-      "location": "Dumaguete City, Negros Oriental",
-      "date": "Fourth Week of September",
-      "image_path": "./assets/nir/sandurot_festival.png",
-      "paragraphs": [
-        "The Sandurot Festival in Dumaguete City, Philippines celebrates the city's history, culture, and renowned hospitality (\"Sandurot\" means \"to fetch\" or \"to meet\"), showcasing its spirit of <i>paghugpong</i> (coming together) through vibrant street dancing and cultural showcases, honoring its heritage as the \"City of Gentle People\". It's a yearly event held in November, featuring colorful performances and artistic expression, inviting locals and tourists to experience Dumaguete's unique blend of tradition and community spirit."
-      ]
-    },
-    {
-      "name": "Tawo-Tawo Festival",
-      "location": "Bayawan City",
-      "date": "February 18",
-      "image_path": "./assets/nir/tawo_tawo_festival.png",
-      "paragraphs": [
-        "The Tawo-Tawo Festival in Bayawan City, Negros Oriental celebrates the city's rich agricultural heritage, especially rice production, and honors its patron saint, Santo Tomas de Villanueva, as a thanksgiving for bountiful harvests, featuring colorful street dancing and cultural shows that symbolize resilience and community unity, initiated in 1986 by local civic groups and later adopted by the government."
       ]
     }
   ],
@@ -494,35 +523,6 @@
       "image_path": "./assets/region_xiii/lisagan_festival.png",
       "paragraphs": [
         "The Lisagan Festival is the annual religious and cultural celebration in Magallanes, Agusan del Norte, Philippines honoring their patroness, Our Lady of the Rosary (Nuestra Señora del Rosario), known for miraculous healing, blending Christian faith with local Manobo traditions (like the \"Lisagan\" beat and indigenous costumes) to express gratitude for blessings and uplift tourism."
-      ]
-    }
-  ],
-  "BARMM": [
-    {
-      "name": "Shariff Kabunsuan Festival",
-      "location": "Cotabato City, Mindanao",
-      "date": "December 19",
-      "image_path": "./assets/barmm/shariff_kabunsuan_festival.png",
-      "paragraphs": [
-        "The Shariff Kabunsuan Festival in Cotabato City commemorates the arrival of Shariff Kabunsuan, an Arab-Malay missionary who introduced Islam to Mindanao in the 16th century, establishing the Sultanate system and shaping the Bangsamoro identity. Celebrated annually in December, it's a vibrant cultural event featuring the iconic Guinakit Fluvial Parade (decorated boats), street dancing, traditional games, and cultural exhibits, blending historical remembrance with modern progress and unity among Muslims, Christians, and Indigenous Peoples."
-      ]
-    },
-    {
-      "name": "Kanduli Festival",
-      "location": "Lutayan, Sultan Kudarat",
-      "date": "Late August to October",
-      "image_path": "./assets/barmm/kanduli_festival.png",
-      "paragraphs": [
-        "The Kanduli Festival is a significant Maguindanaoan cultural celebration, stemming from the word for \"offering\", centered on deep spiritual gratitude to God for blessings, promoting unity, and showcasing rich traditions through activities like Quranic recitations, cultural dances, food fairs, and community feasts, uniting Muslims, Christians, and Indigenous Peoples in celebrating peace, abundance, and progress, particularly in areas like Lutayan, Sultan Kudarat, Philippines."
-      ]
-    },
-    {
-      "name": "Lepa Festival",
-      "location": "Tawi-Tawi",
-      "date": "September 24",
-      "image_path": "./assets/barmm/lepa_festival.png",
-      "paragraphs": [
-        "The Lepa Festival celebrates the rich maritime culture of the Sama Dilaut (Badjao) people, particularly in Tawi-Tawi, Philippines, and Sabah, Malaysia, focusing on their traditional houseboats called \"lepa\" or \"vinta\". These intricately decorated boats, historically nomadic homes for the sea-farming Sama people, are showcased in colorful fluvial parades, symbolizing their heritage, resilience, and unique way of life through traditional music, dances, and cultural contests like the \"Queen of Lepa\"."
       ]
     }
   ]
