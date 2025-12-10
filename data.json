@@ -467,5 +467,34 @@
         "The Tuna Festival started in General Santos City, Philippines in 1998, evolving from a local cuisine showcase during the city's 30th anniversary into an annual week-long event celebrating its status as the \"Tuna Capital of the Philippines\". It's held in early September, featuring tuna-themed parades, street dances (like Lawihan), boat races (Bancarera), culinary contests, and the National Tuna Congress, all honoring the local fishing industry, maritime culture, and the community's resilience and unity."
       ]
     }
+  ],
+  "Region XIII": [
+    {
+      "name": "Naliyagan Festival",
+      "location": "Prosperidad, Agusan del Sur",
+      "date": "Second Week of June",
+      "image_path": "./assets/region_xiii/naliyanan_festival.png",
+      "paragraphs": [
+        "The Naliyagan Festival in Agusan del Sur, Philippines started in 1993 to celebrate the province's founding anniversary, honoring the loyalty and culture of the indigenous Manobo people, especially their leader Datu Lipus Makapandong; it's a week-long event showcasing Manobo traditions, tribal dances, native products, ethnic games, and local artistry, with \"Nilayagan\" meaning \"the chosen/beloved one\" in Manobo, reflecting the people's deep connection to their heritage."
+      ]
+    },
+    {
+      "name": "Baoto Festival",
+      "location": "Agusan del Norte",
+      "date": "Third Week of September",
+      "image_path": "./assets/region_xiii/baoto_festival.png",
+      "paragraphs": [
+        "The Baoto Festival, celebrated in Agusan del Norte, Philippines is a vibrant cultural event centered aroud nature, adventure, and community spirit, featuring thrilling canoe races and skill clinics, showcasing the region's rivers and commitment to preserving its natural beauty while fostering unity and a connection to the outdoors, unlike typical harvest festivals, it's about embracing the flow and awe of nature."
+      ]
+    },
+    {
+      "name": "Lisagan Festival",
+      "location": "Magallanes, Agusal del Norte",
+      "date": "Third Sunday of October",
+      "image_path": "./assets/region_xiii/lisagan_festival.png",
+      "paragraphs": [
+        "The Lisagan Festival is the annual religious and cultural celebration in Magallanes, Agusan del Norte, Philippines honoring their patroness, Our Lady of the Rosary (Nuestra Señora del Rosario), known for miraculous healing, blending Christian faith with local Manobo traditions (like the \"Lisagan\" beat and indigenous costumes) to express gratitude for blessings and uplift tourism."
+      ]
+    }
   ]
 }
