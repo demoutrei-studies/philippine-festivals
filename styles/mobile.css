@@ -61,6 +61,10 @@ body {
     display: flex;
   }
 
+  & #container-title {
+    display: none;
+  }
+
   > #container-search-bar {
     background-color: white;
     border-radius: 10px;
@@ -126,28 +130,28 @@ body {
 
 
 #content {
+  align-content: start;
   background-color: inherit;
-  display: grid;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
   height: 100vh;
-  justify-items: center;
   overflow-x: clip;
   overflow-y: auto;
-  row-gap: 1.5em;
+  gap: 1em;
+  padding: 2em 1.5em;
   width: 100vw;
   
   .card {
     background-color: white;
     border-radius: 15px;
+    flex-grow: 1;
     transition: 0.3s;
-    width: 75%;
+    width: max(max-content, 100%);
 
     &:hover {
       cursor: pointer;
       transform: scale(0.9);
-    }
-
-    &:first-child {
-      margin-top: 1.5em;
     }
 
     &:last-child {

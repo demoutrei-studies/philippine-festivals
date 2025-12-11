@@ -2,14 +2,16 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/mobile.css" media="screen and (width <= 425px)">
+    <link rel="stylesheet" href="styles/mobile.css" media="screen and (width <= 780px)">
+    <link rel="stylesheet" href="styles/desktop.css" media="screen and (width > 780px)" async="true">
     <link rel="icon" href="assets/favicon.png">
     <title>
       Philippine Festivals
     </title>
   </head>
   <body>
-    <div id="container-search">
+    <nav id="container-search">
+      <div id="container-title">Philippine Festivals</div>
       <div id="container-search-bar">
         <input id="search-bar" type="text" placeholder="Search festival..." oninput="searchResults(this.value);">
         <button id="clear-search-bar-button" onclick="clearSearchBar();"><img src="./assets/close.png"></button>
@@ -18,22 +20,11 @@
         <ul id="search-results">
       </div>
       </ul>
-    </div>
+    </nav>
     <header id="container-navigation">
       <button id="search" onclick="searchDisplay();"><img src="./assets/search.png"></button>
     </header>
-    <main id="content">
-      <div class="card">
-        <div class="banner">
-          <img src="./assets/region_vii/sinulog_festival.png">
-        </div>
-        <div class="overview">
-          <span class="title">Sample Title</span>
-          <p><b>Location</b>: Sample Location</p>
-          <p><b>Annual Date</b>: Sample Annual Date</p>
-        </div>
-      </div>
-    </main>
+    <main id="content"></main>
     <div id="container-close" onclick="closeDisplay();"></div>
     <div id="container-festival-display">
       <div id="banner"></div>
