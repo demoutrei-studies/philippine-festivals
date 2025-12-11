@@ -221,12 +221,13 @@ body {
   background-color: white;
   border-radius: 18px;
   display: none;
+  height: 80%;
   left: 50%;
   overflow: clip;
   position: fixed;
-  top: 67%;
-  transform: translate(-50%, -67%);
-  width: 33%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 45%;
 
   &.show {
     display: inline-block;
@@ -240,7 +241,7 @@ body {
   }
 
   > main {
-    aspect-ratio: 5 / 3;
+    height: calc(100% - (50vw * (9/21)));
     overflow-y: auto;
     padding: 1em 2em;
 
