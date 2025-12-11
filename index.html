@@ -11,23 +11,25 @@
   </head>
   <body>
     <nav id="container-search">
-      <div id="container-title">Philippine Festivals</div>
-      <div id="container-search-bar">
-        <input id="search-bar" type="text" placeholder="Search festival..." oninput="searchResults(this.value);">
-        <button id="clear-search-bar-button" onclick="clearSearchBar();"><img src="./assets/close.png"></button>
+      <div id="container-header">
+        <div id="container-title">Philippine Festivals</div>
+        <div id="container-search-bar">
+          <input id="search-bar" type="text" placeholder="Search festival..." oninput="searchResults(this.value);">
+          <button id="clear-search-bar-button" onclick="clearSearchBar();"><img src="./assets/close.png"></button>
+        </div>
+        <div id="container-search-results">
+          <ul id="search-results">
+        </div>
       </div>
-      <div id="container-search-results">
-        <ul id="search-results">
+      <div id="container-filters">
+        <div id="container-title">
+          <span>Filters:</span>
+        </div>
+        <div id="container-filters-list">
+          <ul id="filters-list"></ul>
+        </div>
       </div>
     </nav>
-    <div id="container-filters">
-      <div id="container-title">
-        <span>Filters:</span>
-      </div>
-      <div id="container-filters-list">
-        <ul id="filters-list"></ul>
-      </div>
-    </div>
     <header id="container-navigation">
       <button id="search" onclick="searchDisplay();"><img src="./assets/search.png"></button>
     </header>
