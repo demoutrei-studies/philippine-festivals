@@ -41,7 +41,7 @@ body {
     justify-self: end;
     padding: 0.25em;
     position: relative;
-    right: 3em;
+    right: 1em;
     width: 33%;
 
     & #search-bar {
@@ -86,6 +86,7 @@ body {
   display: flex;
   flex-direction: row;
   padding: 0.5em 1em;
+  width: 100%;
 
   > #container-title {
     align-self: start;
@@ -145,7 +146,7 @@ body {
   grid-template-columns: repeat(round(down, calc(100vw / 15.8em)), auto);
   height: calc(100vh - 3em);
   justify-content: start;
-  max-height: 100vh;
+  max-height: 85vh;
   overflow-x: clip;
   overflow-y: auto;
   padding: 2em 1.5em;
