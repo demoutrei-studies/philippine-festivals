@@ -83,7 +83,7 @@ function listFestivals() {
           if ((regionFilters.length == 0) || (regionFilters.includes(region))) {
             for (let i in data[group][region]) {
               festival = data[group][region][i];
-              if (window.innerWidth > 768) {
+              if (document.documentElement.clientWidth > 768) {
                 if ((festival["name"].toLowerCase().includes(searchBar.value.toLowerCase()))) {
                   listFestival(festival);
                 }
