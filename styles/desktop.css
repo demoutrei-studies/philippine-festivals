@@ -272,7 +272,7 @@ body {
 #container-close {
   background-color: #000000dd;
   display: none;
-  height: 100vh;
+  height: 100%;
   left: 0;
   position: fixed;
   top: 0;
