@@ -88,15 +88,9 @@ function listFestivals() {
           if ((regionFilters.length == 0) || (regionFilters.includes(region))) {
             for (let i in data[group][region]) {
               festival = data[group][region][i];
-              if (document.documentElement.clientWidth > 780) {
-                if ((festival["name"].toLowerCase().includes(searchBar.value.toLowerCase()))) {
-                  listFestival(group, region, festival);
-                }
-              } else {
-                if (festival["name"].toLowerCase().includes(searchBar.value.toLowerCase()) || (searchBar.value.length == 0)) {
-                  const searchResultItem = `<li><button onclick="displayFestival(\`${festival["name"]}\`);"><b>${festival["name"]}</b> (${region})</button></li>`;
-                  searchResultsList.insertAdjacentHTML("beforeend", searchResultItem);
-                }
+              if (festival["name"].toLowerCase().includes(searchBar.value.toLowerCase())) {
+                const searchResultItem = `<li><button onclick="displayFestival(\`${festival["name"]}\`);"><b>${festival["name"]}</b> (${region})</button></li>`;
+                searchResultsList.insertAdjacentHTML("beforeend", searchResultItem);
                 listFestival(group, region, festival);
               }
             }
