@@ -129,6 +129,11 @@ body {
 }
 
 
+#container-filters {
+  display: none;
+}
+
+
 #content {
   align-content: start;
   background-color: inherit;

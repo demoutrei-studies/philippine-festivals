@@ -71,24 +71,30 @@ function listFestival(festival) {
 
 function listFestivals() {
   const contentElement = document.querySelector("#content");
+  const groupFilters = Array.from(document.querySelector("#container-filters-list").querySelector("#filters-list").querySelectorAll('button.active[filterType="group"]'), (button) => button.textContent);
+  const regionFilters = Array.from(document.querySelector("#container-filters-list").querySelector("#filters-list").querySelectorAll('button.active[filterType="region"]'), (button) => button.textContent);
   const searchBar = document.querySelector("#search-bar");
   const searchResultsList = document.querySelector("#search-results");
   contentElement.innerHTML = "";
   fetchData().then(data => {
     for (const group in data) {
-      for (const region in data[group]) {
-        for (let i in data[group][region]) {
-          festival = data[group][region][i];
-          if (window.innerWidth > 768) {
-            if ((festival["name"].toLowerCase().includes(searchBar.value.toLowerCase()))) {
-              listFestival(festival);
+      if ((groupFilters.length == 0) || (groupFilters.includes(group))) {
+        for (const region in data[group]) {
+          if ((regionFilters.length == 0) || (regionFilters.includes(region))) {
+            for (let i in data[group][region]) {
+              festival = data[group][region][i];
+              if (window.innerWidth > 768) {
+                if ((festival["name"].toLowerCase().includes(searchBar.value.toLowerCase()))) {
+                  listFestival(festival);
+                }
+              } else {
+                if (festival["name"].toLowerCase().includes(searchBar.value.toLowerCase()) || (searchBar.value.length == 0)) {
+                  const searchResultItem = `<li><button onclick="displayFestival(\`${festival["name"]}\`);"><b>${festival["name"]}</b> (${region})</button></li>`;
+                  searchResultsList.insertAdjacentHTML("beforeend", searchResultItem);
+                }
+                listFestival(festival);
+              }
             }
-          } else {
-            if (festival["name"].toLowerCase().includes(searchBar.value.toLowerCase()) || (searchBar.value.length == 0)) {
-              const searchResultItem = `<li><button onclick="displayFestival(\`${festival["name"]}\`);"><b>${festival["name"]}</b> (${region})</button></li>`;
-              searchResultsList.insertAdjacentHTML("beforeend", searchResultItem);
-            }
-            listFestival(festival);
           }
         }
       }
@@ -126,4 +132,58 @@ async function searchResults(searchValue) {
 }
 
 
-searchResults("");
+function displayFilters() {
+  const filtersList = document.querySelector("#container-filters-list").querySelector("#filters-list");
+  const searchBar = document.querySelector("#search-bar");
+  fetchData().then(data => {
+    for (const group in data) {
+      const filterItem = `<li><button filterType="group" onclick="toggleGroupFilter(this);">${group}</button></li>`;
+      filtersList.insertAdjacentHTML("beforeend", filterItem);
+    }
+  })
+  searchResults(searchBar.value);
+}
+
+
+function toggleGroupFilter(button) {
+  const groupFiltersList = document.querySelector("#container-filters-list").querySelector("#filters-list");
+  const regionFiltersList = document.querySelector("#container-filters-list").querySelector("#filters-list");
+  const searchBar = document.querySelector("#search-bar");
+  if (button.classList.contains("active")) {
+    button.classList.remove("active");
+    groupFiltersList.querySelectorAll("li").forEach(li => {
+      li.style.display = "block";
+    });
+    regionFiltersList.innerHTML = "";
+    displayFilters();
+  } else {
+    button.classList.add("active");
+    groupFiltersList.querySelectorAll("li").forEach(li => {
+      const button = li.querySelector("button");
+      if (!button.classList.contains("active")) {
+        li.style.display = "none";
+      }
+    })
+    fetchData().then(data => {
+      for (const region in data[button.textContent]) {
+        const filterItem = `<li><button filterType="region" onclick="toggleRegionFilter(this);">${region}</button></li>`;
+        regionFiltersList.insertAdjacentHTML("beforeend", filterItem);
+      }
+    })
+    searchResults(searchBar.value);
+  }
+}
+
+
+function toggleRegionFilter(button) {
+  const searchBar = document.querySelector("#search-bar");
+  if (button.classList.contains("active")) {
+    button.classList.remove("active");
+  } else {
+    button.classList.add("active");
+  }
+  searchResults(searchBar.value);
+}
+
+
+displayFilters();
