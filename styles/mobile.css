@@ -16,6 +16,7 @@ body {
   flex-direction: row;
   height: max-content;
   justify-content: center;
+  overflow: clip;
   padding: 0.7em 0;
   position: absolute;
   width: 100vw;
@@ -34,7 +35,7 @@ body {
     > img {
       aspect-ratio: 1 / 1;
       max-width: 100%;
-      width: 3em;
+      width: 10vw;
     }
   }
 }
