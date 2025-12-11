@@ -274,7 +274,7 @@ body {
   display: none;
   height: 100vh;
   left: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   transition: 0.3s;
   width: 100vw;
