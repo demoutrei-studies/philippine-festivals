@@ -123,3 +123,62 @@ body {
     }
   }
 }
+
+
+#content {
+  background-color: inherit;
+  display: grid;
+  height: 100vh;
+  justify-items: center;
+  overflow-x: clip;
+  overflow-y: auto;
+  row-gap: 1.5em;
+  width: 100vw;
+  
+  .card {
+    background-color: white;
+    border-radius: 15px;
+    transition: 0.3s;
+    width: 75%;
+
+    &:hover {
+      transform: scale(0.9);
+    }
+
+    &:first-child {
+      margin-top: 1.5em;
+    }
+
+    &:last-child {
+      margin-bottom: 4.5em;
+    }
+
+    > .banner {
+      aspect-ratio: 21 / 9;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-top-left-radius: inherit;
+      border-top-right-radius: inherit;
+      display: flex;
+      left: 0;
+      overflow: clip;
+      top: 0;
+    }
+
+    > .overview {
+      padding: 0.5em 0.75em;
+
+      > .title {
+        font-family: arial;
+        font-size: 1.25em;
+        font-weight: bold;
+      }
+
+      p {
+        font-family: sans-serif;
+        font-size: 0.75em;
+        margin: 0;
+      }
+    }
+  }
+}
