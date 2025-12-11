@@ -31,6 +31,7 @@ function displayFestival(festivalName) {
           if (festival["name"] == festivalName) {
             containerFestivalDisplay.querySelector("#banner").style.backgroundImage = `url("${festival["image_path"]}")`;
             containerFestivalDisplay.querySelector(".title").textContent = festivalName;
+            containerFestivalDisplay.querySelector(".region").textContent = `${region}, ${group}`;
             containerFestivalDisplay.querySelector(".location").textContent = festival["location"];
             containerFestivalDisplay.querySelector(".date").textContent = festival["date"];
             const paragraphs = [];
@@ -55,11 +56,15 @@ async function fetchData() {
 }
 
 
-function listFestival(festival) {
+function listFestival(group, region, festival) {
   const contentElement = document.querySelector("#content");
   const festivalCard = `<div class="card" onclick="displayFestival(\`${festival["name"]}\`);">
     <div class="banner" style='background-image: url(\"${festival["image_path"]}\");'></div>
     <div class="overview">
+      <ul class="badges-list">
+        <li>${group}</li>
+        <li>${region}</li>
+      </ul>
       <span class="title">${festival["name"]}</span>
       <p><b>Location</b>: ${festival["location"]}</p>
       <p><b>Annual Date</b>: ${festival["date"]}</p>
@@ -85,14 +90,14 @@ function listFestivals() {
               festival = data[group][region][i];
               if (document.documentElement.clientWidth > 768) {
                 if ((festival["name"].toLowerCase().includes(searchBar.value.toLowerCase()))) {
-                  listFestival(festival);
+                  listFestival(group, region, festival);
                 }
               } else {
                 if (festival["name"].toLowerCase().includes(searchBar.value.toLowerCase()) || (searchBar.value.length == 0)) {
                   const searchResultItem = `<li><button onclick="displayFestival(\`${festival["name"]}\`);"><b>${festival["name"]}</b> (${region})</button></li>`;
                   searchResultsList.insertAdjacentHTML("beforeend", searchResultItem);
                 }
-                listFestival(festival);
+                listFestival(group, region, festival);
               }
             }
           }
