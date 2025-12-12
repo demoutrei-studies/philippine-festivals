@@ -12,6 +12,9 @@ body {
 
 
 #container-search {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
   position: sticky;
   top: 0;
   width: 100vw;
@@ -20,10 +23,14 @@ body {
   > #container-header {
     align-items: center;
     background-color: inherit;
+    box-sizing: border-box;
     display: flex;
-    flex-direction: column;
-    padding-bottom: 0.5em;
-    padding-top: 0.5em;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    position: relative;
+    top: 0;
 
     > #container-title {
       display: none;
@@ -35,6 +42,7 @@ body {
       border-radius: 29px;
       display: flex;
       flex-direction: row;
+      max-width: 67vw;
       padding: 0.25em 0.5em;
       width: max-content;
 
@@ -229,15 +237,13 @@ footer {
   #container-search {
     > #container-header {
       > #container-search-bar {
-        width: 15.5em;
-        
         > #search-bar {
           font-size: 1em;
         }
 
         > #clear-search-bar-button {
           > img {
-            width: 3em;
+            width: 2em;
           }
         }
       }
