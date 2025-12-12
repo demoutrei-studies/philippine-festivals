@@ -283,3 +283,20 @@ body {
     display: block;
   }
 }
+
+footer {
+  background-color: inherit;
+  display: flex;
+  padding: 0.25em 0.5em;
+  justify-content: center;
+
+  > p {
+    color: #A4A4A4;
+    font-family: arial;
+
+    > a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+}
