@@ -6,7 +6,7 @@
 body {
   background-color: var(--color-primary);
   margin: 0;
-  overflow: clip;
+  overflow-x: clip;
   overflow-y: auto;
 }
 
@@ -169,6 +169,7 @@ body {
 
     > .banner {
       aspect-ratio: 21 / 9;
+      background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       border-top-left-radius: 18px;
@@ -207,6 +208,8 @@ body {
       }
 
       > p {
+        font-family: arial;
+        font-size: 0.9em;
         margin: 0;
         padding: 0;
       }
@@ -224,20 +227,24 @@ body {
   background-color: white;
   border-radius: 18px;
   display: none;
-  height: 80%;
+  flex-direction: column;
+  max-height: 80vh;
+  max-width: 45vw;
   left: 50%;
   overflow: clip;
   position: fixed;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 45%;
+  /* width: 45%; */
+  z-index: 4;
 
   &.show {
-    display: inline-block;
+    display: flex;
   }
 
   > #banner {
     aspect-ratio: 21 / 9;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -278,6 +285,7 @@ body {
   top: 0;
   transition: 0.3s;
   width: 100vw;
+  z-index: 3;
 
   &.active {
     display: block;
